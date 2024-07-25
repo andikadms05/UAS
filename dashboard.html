@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles_dashboard.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="http://ppm.amikom.ac.id/resource/assets/images/Logo_Amikom_color.png" alt="Logo">
+        </div>
+        <a onclick="showSection('beranda')">Beranda</a>
+        <a onclick="showSection('profil')">Profil</a>
+        <a onclick="showSection('kuis')">Kuis</a>
+        <button class="collapsible">Rekapitulasi Nilai</button>
+        <div class="collapsible-content">
+            <a onclick="showSection('kehadiran')">Kehadiran</a>
+            <a onclick="showSection('tugas')">Tugas</a>
+            <a onclick="showSection('responsi')">Responsi</a>
+            <a onclick="showSection('uts')">Ujian Tengah Semester</a>
+            <a onclick="showSection('uas')">Ujian Akhir Semester</a>
+        </div>
+        <a onclick="showSection('tambah-data')">Tambah Data</a>
+    </div>
+    <div class="main-content">
+        <div id="beranda" class="content-section">
+            <h1>Beranda</h1>
+            <div class="grid-container">
+                <div class="card">
+                    <h2>Prodi</h2>
+                    <select>
+                        <option>Kelas</option>
+                    </select>
+                </div>
+                <div class="card">
+                    <h2>Prodi</h2>
+                    <select>
+                        <option>Kelas</option>
+                    </select>
+                </div>
+                <div class="card">
+                    <h2>Prodi</h2>
+                    <select>
+                        <option>Kelas</option>
+                    </select>
+                </div>
+                <div class="card">
+                    <h2>Prodi</h2>
+                    <select>
+                        <option>Kelas</option>
+                    </select>
+                </div>
+                <div class="card">
+                    <h2>Prodi</h2>
+                    <select>
+                        <option>Kelas</option>
+                    </select>
+                </div>
+                <div class="card">
+                    <h2>Prodi</h2>
+                    <select>
+                        <option>Kelas</option>
+                    </select>
+                </div>
+                <div class="card">
+                    <h2>Prodi</h2>
+                    <select>
+                        <option>Kelas</option>
+                    </select>
+                </div>
+                <div class="card">
+                    <h2>Prodi</h2>
+                    <select>
+                        <option>Kelas</option>
+                    </select>
+                </div>
+                <div class="card">
+                    <h2>Prodi</h2>
+                    <select>
+                        <option>Kelas</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div id="profil" class="content-section hidden">
+            <h1>Profil</h1>
+            <div class="profile-container">
+                <div class="profile-header">Ringkasan Profil</div>
+                <div class="profile-item">
+                    <label>Nama :</label>
+                </div>
+                <div class="profile-item">
+                    <label>NID/NIDN :</label>
+                </div>
+                <div class="profile-item">
+                    <label>Tempat/Tanggal Lahir :</label>
+                </div>
+                <div class="profile-item">
+                    <label>Jenis Kelamin :</label>
+                </div>
+                <div class="profile-item">
+                    <label>Agama :</label>
+                </div>
+                <div class="profile-item">
+                    <label>Alamat :</label>
+                </div>
+                <div class="profile-item">
+                    <label>Email :</label>
+                </div>
+            </div>
+        </div>
+        <div id="kuis" class="content-section hidden">
+            <h1>Kuis</h1>
+            <div class="kuis-grid">
+                <div class="kuis-item">
+                    <h2>Kuis ke -</h2>
+                </div>
+                <div class="kuis-item">
+                    <h2>Kuis ke -</h2>
+                </div>
+                <div class="kuis-item">
+                    <h2>Kuis ke -</h2>
+                </div>
+                <div class="kuis-item">
+                    <h2>Kuis ke -</h2>
+                </div>
+                <div class="kuis-item">
+                    <h2>Kuis ke -</h2>
+                </div>
+                <div class="kuis-item">
+                    <h2>Kuis ke -</h2>
+                </div>
+                <div class="kuis-item">
+                    <h2>Kuis ke -</h2>
+                </div>
+                <div class="kuis-item">
+                    <h2>Kuis ke -</h2>
+                </div>
+                <div class="kuis-item">
+                    <h2>Kuis ke -</h2>
+                </div>
+                <div class="kuis-item">
+                    <h2>Kuis ke -</h2>
+                </div>
+                <div class="kuis-item">
+                    <h2>Kuis ke -</h2>
+                </div>
+                <div class="kuis-item">
+                    <h2>Kuis ke -</h2>
+                </div>
+            </div>
+        </div>
+        <div id="kehadiran" class="content-section hidden">
+            <h1>Kehadiran</h1>
+            <label for="kehadiran">Kehadiran</label>
+            <select id="kehadiran">
+                <option>Kelas</option>
+            </select>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Nim</th>
+                        <th>Email</th>
+                        <th>Hadir / Tidak</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                        <td>
+                        <td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="tugas" class="content-section hidden">
+            <h1>Tugas</h1>
+            <div class="filter-container">
+                <label for="kelas">Kelas</label>
+                <select id="kelas">
+                    <option>Kelas</option>
+                </select>
+                <label for="pertemuan">Pertemuan ke</label>
+                <select id="pertemuan">
+                    <option>Pertemuan ke</option>
+                </select>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Nim</th>
+                        <th>Email</th>
+                        <th>Nilai</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                        <td>
+                        <td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="responsi" class="content-section hidden">
+            <h1>Responsi</h1>
+            <div class="filter-container">
+                <label for="kelas">Kelas</label>
+                <select id="kelas">
+                    <option>Kelas</option>
+                </select>
+                <label for="responsi">Responsi ke</label>
+                <select id="responsi">
+                    <option>Responsi ke</option>
+                </select>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Nim</th>
+                        <th>Email</th>
+                        <th>Nilai</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                        <td>
+                        <td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="uts" class="content-section hidden">
+            <h1>Ujian Tengah Semester (UTS)</h1>
+            <div class="filter-container">
+                <label for="prodi">Program Studi</label>
+                <select id="prodi">
+                    <option>Program Studi</option>
+                </select>
+                <label for="kelas">Kelas</label>
+                <select id="kelas">
+                    <option>Kelas</option>
+                </select>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Nim</th>
+                        <th>Email</th>
+                        <th>Nilai</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                        <td>
+                        <td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="uas" class="content-section hidden">
+            <h1>Ujian Akhir Semester (UAS)</h1>
+            <div class="filter-container">
+                <label for="prodi">Program Studi</label>
+                <select id="prodi">
+                    <option>Program Studi</option>
+                </select>
+                <label for="kelas">Kelas</label>
+                <select id="kelas">
+                    <option>Kelas</option>
+                </select>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Nim</th>
+                        <th>Email</th>
+                        <th>Nilai</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                        <td>
+                        <td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                        <td>
+                        <td>
+                        <td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="tambah-data" class="content-section hidden">
+            <h1>Tambah Data</h1>
+            <div class="form-container">
+                <form>
+                    <label for="nama">Nama</label>
+                    <input type="text" id="nama" name="nama">
+                    <label for="nim">NIM</label>
+                    <input type="text" id="nim" name="nim">
+                    <label for="nim">Fakultas</label>
+                    <input type="text" id="fakultas" name="fakultas">
+                    <label for="prodi">Program Studi</label>
+                    <input type="text" id="prodi" name="prodi">
+                    <label for="kelas">Kelas</label>
+                    <input type="text" id="kelas" name="kelas">
+                    <label for="kelas">Semester</label>
+                    <input type="text" id="semester" name="semester">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(section => {
+                section.classList.toggle('hidden', section.id !== sectionId);
+            });
+        }
+        document.querySelectorAll('.collapsible').forEach(button => {
+            button.addEventListener('click', () => {
+                button.classList.toggle('active');
+                const content = button.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
